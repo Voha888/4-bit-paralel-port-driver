@@ -1,0 +1,55 @@
+# 4-bit-paralel-port-driver
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   cout << "Hello World" << endl; 
+   
+   
+   int res = 55;
+   int X=3;
+   string Y="abcdefgh";
+   //X=Y[0];
+    int Z = 0;
+    
+    
+    cout << (bool) (res & 1) << endl;
+    cout << (bool) (res & 2) << endl;
+    cout << (bool) (res & 4) << endl;
+    cout << (bool) (res & 8) << endl;
+   
+   bool a=0;
+   bool b=0;
+   bool c=0;
+   bool d=0, e, f, g, h;
+   int i=0;
+  Z=sizeof(Y);
+   
+   a=X&1;
+   b=X&2;
+   c=X&4;
+   d=X&8;
+    e=X&16;
+   f=X&32;
+   g=X&64;
+   h=X&128;
+   
+   cout<< "Bit one   "<<h<<g<<f<<e<<d<<c<<b<<a<< endl;
+   
+   cout<< "Lenght   "<<Z<< endl;
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   return 0;
+}
+
